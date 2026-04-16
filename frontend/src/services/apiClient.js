@@ -1,9 +1,9 @@
 import axios from 'axios';
 import Cookie from 'js-cookie';
 
-// Use relative path for development (proxied by Vite)
-// Use absolute URL for production if VITE_API_URL is set
-const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
+// For production: use full backend URL from env
+// For development: use relative path /api/v1 (proxied by Vite)
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api/v1';
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
