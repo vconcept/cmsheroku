@@ -1,6 +1,6 @@
-# EduCMS - Educational Content Management System
+# EduCMS - Educational Content Management System - https://cmsheroku-1.onrender.com/
 
-**An Educational Content Management System built with the modern MERN stack**
+**https://cmsheroku-1.onrender.com/ - An Educational Content Management System built with the modern MERN stack**
 
 ## Overview
 
@@ -422,4 +422,4 @@ For issues, questions, or feedback:
 
 **Version:** 1.0.0  
 **Last Updated:** April 16, 2026  
-**Status:** Production Ready 
+**Status:** Production Ready
